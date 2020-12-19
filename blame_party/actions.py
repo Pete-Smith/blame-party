@@ -1,0 +1,2 @@
+class ColumnState:
+    pass

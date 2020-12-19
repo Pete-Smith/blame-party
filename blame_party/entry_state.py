@@ -1,0 +1,2 @@
+class EntryState:
+    pass
