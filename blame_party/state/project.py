@@ -1,10 +1,10 @@
-from blame_party.column_state import ColumnState
-from blame_party.entry_state import EntryState
-from blame_party.swimlane_state import SwimlaneState
+from .column import ColumnState
+from .entry import EntryState
+from .swimlane import SwimlaneState
 
 EntryList = list[EntryState]
 IndexList = list[int]
-IndexGrid = list[list[int]]
+IndexGrid = list[list[int]]  # Column, Swimlane, Sort Order
 ColumnList = list[ColumnState]
 SwimlaneList = list[SwimlaneState]
 
